@@ -11,6 +11,10 @@ namespace InterfaceExercise
         static void Main(string[] args)
         {
             Bird cardinal = new Bird();
+
+            Boombox.volume = 30;
+            Boombox.PlayMusic();
+            Boombox JVCRCM90 = new Boombox();
         }
     }
 }

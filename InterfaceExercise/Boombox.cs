@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace InterfaceExercise
 {
-    public class Bird : IBird
+    class Boombox
     {
-        public void Fly()
+        public static int volume { get; set; }
+
+        public static void PlayMusic()
         {
-            
+            Console.Write("Boombox is Jammin!");
         }
     }
+
 }
